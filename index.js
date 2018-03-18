@@ -23,7 +23,7 @@ module.exports = function (file, opts) {
     
     var sm = staticModule(
         {
-            fs: {
+            brfs: {
                 readFileSync: readFileSync,
                 readFile: readFile,
                 readdirSync: readdirSync,
